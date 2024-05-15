@@ -1,13 +1,13 @@
 <?php
 /**
- * @since             1.0.1
+ * @since             1.0.0
  * @package           Authorization via Yandex ID
  *
  * @wordpress-plugin
  * Plugin Name:       Плагин для авторизации в Яндекс ID
  * Plugin URI:        https://webseed.ru/avtorizacziya-cherez-yandeks-id-na-wordpress-plagin-dlya-vhoda
  * Description:       Укажите Client Token и Secret Token в настройках плагина.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Nikita Ivanov (Nick Iv)
  * Author URI:        https://github.com/dllpl
  * License:           BSD 3-Clause License

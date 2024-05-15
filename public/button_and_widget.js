@@ -7,13 +7,13 @@ if (!yaWpData.error) {
     };
     let tokenPageOrigin = location.origin;
 
-    // Проверка на наличие элемента с ID 'my_yandex-login'
-    var loginElement = document.getElementById("my_yandex-login");
+    // Проверка на наличие элемента с ID 'my_yandex_login'
+    var loginElement = document.getElementById("my_yandex_login");
 
     if (loginElement && yaWpData.button && yaWpData.container_id) {
       YaAuthSuggest.init(oauthQueryParams, tokenPageOrigin, {
         view: "button",
-        parentId: "my_yandex-login", // Убедитесь, что это ID элемента для кнопки
+        parentId: "my_yandex_login", // Убедитесь, что это ID элемента для кнопки
         buttonSize: "xl",
         buttonView: "main",
         buttonTheme: "light",
