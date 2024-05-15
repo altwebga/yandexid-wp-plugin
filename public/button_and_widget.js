@@ -13,7 +13,7 @@ if (!yaWpData.error) {
                 YaAuthSuggest.init(oauthQueryParams, tokenPageOrigin,
                     {
                         view: "button",
-                        parentId: id,
+                        parentId: 'yandex-login',
                         buttonSize: 'xl',
                         buttonView: 'main',
                         buttonTheme: 'light',
